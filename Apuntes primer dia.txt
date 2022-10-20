@@ -1,0 +1,73 @@
+Evolución de la web (Arquitectura web)
+web 1.0: un webmaster que publicaba y un grupo de personas que recibian la información.
+	Permitió a las empresas generar su estrategia.
+web 2.0: los usuarios ya empezaban a interaccionar entre ellos y generan contenido, publicar etc.
+	Empiezan a aparecer aplicaciones de escritorio que suplantan a las aplicaciones web.
+web 3.0, combina la inteligencia de la maquina con la humana.
+web 4.0, los objetos y las personas se pueden conectar en cualquier momento y lugar, coge mucho peso los
+	dispositivos mobiles, web design etc..
+web 5.0, (la red sensorial-emotiva) se crea neurotecnoloía, poder interactuar con las máquinas mediante el lenguaje o las emociones.
+... Estos nombres se usan para abarcar etapas de la era de internet, pero las mas importantes
+son las dos primeras.
+Tim O`Reilly: creó la web 2.0. (buscar información).https://www.youtube.com/watch?v=_LZAJuOTXqg
+
+Qué es una aplicación web?
+programainformaico que se ejecuta en un servidor web, no es necesario instalar nada en el equipo, ya que se
+accede mediante el navegador web, pero precisamos de conexión a la web.
+Estas aplicaciones estan basadas en la arquitectura cliente-servidor. Existirán scripts del lado del servidor
+y del lado del cliente.Uno ayuda a la visualización del programa con lenguajes como html y css 
+y el otro es la chicha, normalmente en lenguajes como php.
+Tipos de aplicaciones:
+- Aplicaciones en el lado del cliente: el encargado de ejecutar la aplicación:
+	hojas de estilo, java, javascript, VBScript, etc..
+		Ayudan amodificar lo que se está mostrando por pantalla, la capa presentación
+-Aplicaciones del lado del servidor: la maquina que ejecuta, tiene codigo
+	PHP, ASP, ejemplos de lenguajes de esta tecnología
+		Muchas veces suelen ser la mejor opción para realizar aplicaciones web, ya que al hacerse en 
+	servidor solo dependen de la potencia del servidor y no hay que tener en cuenta el dispositivo y 
+	limitaciones del equipo del cliente. No necesitan instalarse en el dispositivo, mantenimientoy actualizacion sencilla
+	Un problema es la funcionalidad, suelen tener menos funcionalidad que una aplicacion de escritorio.
+	Ejemplos de aplicaciones web:
+		-Aplicacion web estatica: no cambia, es igual siempre. Es un sitio web. HTML, CSS, sin interactividad, sin funcionalidades
+			actualización compleja etc. Curriculums, paginas de presentación de productos, etc.
+		-Aplicación web dinámica: poseen una mayor complejidad técnica, uso de bases de datos, actualización de contenidos sencillo,
+			CMS(COntent management system / gestor de contenido como wordpress), numerosas funcionalidades, diferentes posibilidades
+			de diseño y presentación, existe interacción. periodicos, noticias etc..
+		-Plataformas E-commerce: aplicación web utilizada para el comercio electrónico. Desarrollo complejo ya que 
+			debe permitir la realización de transacciones online a través de diferentes metodos de pago. Se debe crear
+			un panel de gestión de control de los productos.
+		-Portal Web App: aplicación web que permite acceder a los diversos apartados, categorías, secciones a través de una home
+			Mediante un perfil de usuario se puede acceder a foros, chats, correos, contenido, etc.. Permite acceder a la 
+			información que se quiere proporcionar al usuario desde un solo punto. Es la mejor opción para adaptar
+			las necesidades de los usuarios. Portales gubernamentales, educativos, sanitarios, etc..
+
+Arquitectura de Aplicaciones:
+BAsada en servidor: Mainframes o nube con clientes livianos. 
+Cliente/servidor: Software instalado en servidores y clientes.Beneficios: Usabilidad/flexibilidad/interoperabilidad/escalabilidad.
+Basada en cliente: Stand-alone o P2P.
+
+Capas de aplicacion web:
+	-Capa de presentacion: encargada de la navegabilidad, validación de datos de entrada,formateo de los datos de salida, presentación de la web.
+	-Capa de negocio: recibe peticiones del usuario y desde donde se le envían las respuestas.
+	-Capa de acceso a datos.(nomediotiempoacopiar)
+
+Plataformas LAMP: componentes de software libre y no está sujeta a restricciones propietarias. el nombre LAMP surge de las iniciales de los
+componentes que la integran: Linux: Sistema operativo
+				Apache: Servidor Web
+				MySQL: Gestor de base de datos
+				PHP: lenguaje interpretado, a veces es Perl o Python.
+Plataforma WISA: igual que LAMP pero en windows: Windows, Internet explorer, SQL, ASP o ASP.NET
+Plataforma WAMP: Windows,Apache,MySQL,PHP.
+
+IMPORTANTE:
+-Las aplicaciones de escritorio suelen ser mas potentes y tener mas funcionalidades, aunque puede que deje de ser asi
+-Las aplicaciones web en la actualidad tienen prestaciones similares a las de escritorio.
+-Generalmente las AWEB se crean mediante una estructura de capas: Presentacion, negocio y dato.
+-Los servidores web permiten mostrar las paginas web que los usuarios requieres a traves de la web
+-Uno de los servers mas usados es Apache
+-Se utilizan mucho los servidores de BD
+-Uno de los mas usados es MySQL
+-Existen soluciones integradas para instalar todo lo que necesito
+-Las denominadas APPS son aplicaciones diseñadas para dispositivos mobiles, estan en auge, y estan ganando cuota a las aplicaciones web.
+
+
